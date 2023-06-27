@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* NAV SECTION */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+
+.nav-link1{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+
+
+.nav-link1 :first-child {
+    color: #E50914; 
+    font-size: 1.25rem;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.01563rem;
+    border-bottom : 2px solid #E50914; 
+}
+
+.nav-link1 a {
+    color: var(--secondary-text, #666);
+    font-size: 1.25rem;
+    font-family: DM Sans;
+    line-height: 120%;
+    letter-spacing: 0.01563rem;
+}
+
+.nav-link2 {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.nav-link2 a {
+    color: #E50914;
+    font-size: 1.25rem;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.01563rem;
+}
+
+.nav-link2 button {
+    padding: 0.75rem 2rem;
+    border-radius: 16px;
+    background: #E50914;
+    border: none;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.01563rem;
+}
+
+.first_section {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 4rem 5.5rem;
+    align-items: center;
+}
+.first_section .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 50%;
+}
+
+.first_section .text h2 {
+    color: var(--030303, #030303);
+    font-size: 3.5rem;
+    font-family: Cormorant Garamond;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0.01563rem;
+}
+
+.first_section .text p {
+    color: #4E4E4E;
+    font-size: 1.5rem;
+    font-family: DM Sans;
+    line-height: 120%;
+    font-weight: 100;
+    letter-spacing: 0.01563rem;
+}
+
+.first_section .text button {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.01563rem;
+    border-radius: 16px;
+    background: #E50914;
+    padding: 0.75rem 2rem;
+    border: none;
+}
