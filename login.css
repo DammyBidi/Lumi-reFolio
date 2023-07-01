@@ -183,6 +183,12 @@ nav {
     font-weight: 500;
     line-height: 120%;
     letter-spacing: 0.01563rem;
+    cursor: pointer;
+}
+
+.hero-section button:hover {
+    
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #E50914;
 }
 
 
@@ -212,7 +218,7 @@ p {
     letter-spacing: 0.059rem;
 }
 
-footer a {
+footer .link a {
     color: #D4D4D4;
 
     /* Regular/20 */

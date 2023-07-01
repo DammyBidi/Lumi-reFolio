@@ -131,11 +131,19 @@ nav {
   font-weight: 500;
   line-height: 120%;
   letter-spacing: 0.01563rem;
-  border-radius: 16px;
+  border-radius: 1rem;
   background: #e50914;
   padding: 0.75rem 2rem;
   border: none;
+  cursor: pointer;
 }
+
+.hero-section .text button:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #E50914;
+  color: #FFF;
+}
+
+
 
 .hero-section > .image {
     /* width: 40%; */
@@ -285,7 +293,7 @@ footer h6, p {
     letter-spacing: 0.059rem;
 }
 
-footer a {
+footer .link a {
     color: #D4D4D4;
     font-size: 1.25rem;
     font-family: DM Sans;
