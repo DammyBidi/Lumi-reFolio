@@ -10,6 +10,7 @@
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 /* NAV SECTION */
@@ -58,11 +59,20 @@ nav {
   font-weight: 500;
   line-height: 120%;
   letter-spacing: 0.01563rem;
+  
+}
+
+.nav-link2 :nth-child(2):hover {
+  padding: 0.75rem 2rem;
+  border-radius: 1rem;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #E50914;
+  border: none;
+  color: #FFF;
 }
 
 .nav-link2 button {
   padding: 0.75rem 2rem;
-  border-radius: 16px;
+  border-radius: 1rem;
   background: #e50914;
   border: none;
   color: #fff;
@@ -71,7 +81,16 @@ nav {
   font-weight: 500;
   line-height: 120%;
   letter-spacing: 0.01563rem;
+  cursor: pointer;
 }
+
+.nav-link2 button:hover {
+  border-radius: 1rem;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #E50914;
+}
+
+
+/* HERO SECTION */
 
 .hero-section {
   display: flex;
