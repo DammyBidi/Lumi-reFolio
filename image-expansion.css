@@ -101,7 +101,7 @@ nav {
 /* CAROUSEL-ITEMS */
 
 #slider {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 1440px !important;
   margin: 0 auto;
   align-items: center !important;
