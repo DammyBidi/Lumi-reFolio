@@ -20,6 +20,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 4rem;
+  margin-bottom: 2.5rem;
 }
 
 .nav-link1 {
@@ -100,30 +101,57 @@ nav {
 
 /* CAROUSEL-ITEMS */
 
-#slider {
-  /* border: 2px solid red; */
-  width: 1440px !important;
+.carousel-container {
+  display: flex;
+  
+  justify-content: center; 
+  align-items: center; 
+  overflow: hidden;
+  /* width: 300px;
+  height: 200px;  */
+  /* max-width: 1440px; */
   margin: 0 auto;
-  align-items: center !important;
-  padding: 2.5rem 19.19rem 5.5rem;
-  color: #030303;
+  position: relative;
+ 
+  margin-top: 1.5rem;
+}
+
+.carousel-wrapper {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
 }
 
 .carousel-item {
-  padding: 7% 15%;
+  /* min-width: 100%; */
+  box-sizing: border-box;
+  /* text-align: center;  */
 }
 
-.carousel-inner > .profile {
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  margin: 0 20%;
+}
+
+.prev-button {
+  left: 0;
+}
+
+.next-button {
+  right: 0;
+}
+
+
+
+.profile{
   display: flex;
-  justify-content: space-between;
-}
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  gap: 40rem;
 
-.carousel-control-prev-icon {
-    background-image: url(Assets/Images/carousel\ arrow.png);
-}
-
-.carousel-control-next-icon {
-    background-image: url(Assets/Images/carousel\ arrowright.png);
 }
 
 .bottom {
