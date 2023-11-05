@@ -103,6 +103,7 @@ nav {
   justify-content: space-between;
   padding: 2.5rem 4rem 5.5rem;
   align-items: center;
+  /* gap: 1rem; */
 }
 .hero-section .text {
   display: flex;
@@ -157,15 +158,77 @@ nav {
 .hero-section > .image {
   /* width: 40%; */
 
-  width: 28.5rem;
-  height: 27rem;
+ 
   background: #fef4f4;
   display: flex;
-  padding: 2.5rem 3.5rem;
+  padding: 2.5rem;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 0.625rem;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  /* align-items: flex-start; */
+  /* gap: 0.625rem; */
 }
+
+.border1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3.2px solid black;
+  border-radius: 30px;
+  padding: 0.81rem;
+
+
+}
+
+.image .border {
+  border: 3.2px solid black;
+  border-radius: 30px;
+  padding: 3rem;
+  height: 24rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+
+.slider-container {
+  margin: 0 auto;
+  width: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-wrapper {
+  
+  white-space: nowrap;
+  width: 100%;
+  /* overflow-x: auto; */
+  gap: 20px;
+  /* padding: 20px; */
+  /* display: flex; */
+  /* transition: transform 0.5s ease; */
+  display: flex;
+  animation: scroll 30s linear infinite;
+  
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-700%);
+  }
+}
+
+
+.slider-image {
+  display: inline-block;
+}
+
 
 .typewriter h1 {
   overflow: hidden;
@@ -179,7 +242,7 @@ nav {
   font-family: Cormorant Garamond;
   font-weight: 700;
   line-height: 120%;
-  letter-spacing: 0.01563rem;
+  letter-spacing: 0.01563rem; 
 }
 
 @keyframes typing {
@@ -190,6 +253,7 @@ nav {
     width: 100%;
   }
 }
+
 
 @keyframes blink-caret {
   from,
